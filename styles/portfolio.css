@@ -49,6 +49,9 @@ nav li a{
     border-radius: 5px;
     border: none;
 }
+.text-center{
+    text-align: center;
+}
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -81,7 +84,7 @@ nav li a{
     font-weight: bold;
     color: #181818;
 }
-.section-descriptation{
+.section-description{
     font-size: 18px;
     color: #757575;
 }
@@ -93,14 +96,30 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+
+/* skils style */
+.skiles-container{
+    display: flex;
+    gap: 24px;
+}
+.skile{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0,0.6);
+
 }
